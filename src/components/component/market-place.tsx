@@ -354,7 +354,9 @@ export function MarketPlace() {
   )
 }
 
-function CalendarIcon(props) {
+interface IconProps extends React.SVGProps<SVGSVGElement> {}
+
+function CalendarIcon(props: IconProps) {
   return (
     <svg
       {...props}
@@ -377,7 +379,9 @@ function CalendarIcon(props) {
 }
 
 
-function StarIcon(props) {
+interface StarIconProps extends React.SVGProps<SVGSVGElement> {}
+
+function StarIcon(props: StarIconProps) {
   return (
     <svg
       {...props}
@@ -397,7 +401,9 @@ function StarIcon(props) {
 }
 
 
-function ThumbsUpIcon(props) {
+interface ThumbsUpIconProps extends React.SVGProps<SVGSVGElement> {}
+
+function ThumbsUpIcon(props: ThumbsUpIconProps) {
   return (
     <svg
       {...props}
